@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music Sharing Platform</title>
+  </head>
+  <body>
+    <h1>Welcome to the Music Sharing Platform</h1>
+    <h2>Allowed Music Files:</h2>
+    <ul>
+      {% for music_file in allowed_files %}
+      <li>{{ music_file.title }}</li>
+      {% empty %}
+      <li>No music files available.</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
