@@ -33,7 +33,7 @@ The following technologies are used to develop this music sharing app:
 
 To install and run the music sharing app locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/music-sharing-app.git`
+1. Clone the repository: `https://github.com/NiviShukla/EdYoda_Assignment.git`
 2. Navigate to the project directory: `cd music-sharing-app`
 3. Create a virtual environment: `python -m venv venv`
 4. Activate the virtual environment:
