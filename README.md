@@ -36,12 +36,9 @@ To install and run the music sharing app locally, follow these steps:
 1. Clone the repository: `https://github.com/NiviShukla/EdYoda_Assignment.git`
 2. Navigate to the project directory: `cd music-sharing-app`
 3. Create a virtual environment: `python -m venv venv`
-4. Activate the virtual environment:
-   - For Windows: `venv\Scripts\activate`
-   - For macOS/Linux: `source venv/bin/activate`
-5. Install the dependencies: `pip install -r requirements.txt`
-6. Set up the database:
+4. Install the dependencies: `pip install -r requirements.txt`
+5. Set up the database:
    - Update the database settings in the `settings.py` file to match your PostgreSQL configuration.
    - Apply database migrations: `python manage.py migrate`
-7. Start the development server: `python manage.py runserver`
-8. Open your web browser and visit: `http://localhost:8000`
+6. Start the development server: `python manage.py runserver`
+7. Open your web browser and visit: `http://localhost:8000`
